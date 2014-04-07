@@ -12,14 +12,17 @@ Features
     The buffer is limited size and cyclic, so that not to consume your memory
 
 
+Video demo:
+    http://se7so.blogspot.com/2012/01/key-logger-kernel-space.html
+
 Build:
-  make
+    make
   
 Load:
-  sudo ./klg_load.sh
+    sudo ./klg_load.sh
   
 Unload:
-  sudo ./klg_unload.sh
+    sudo ./klg_unload.sh
 
 Read logs:
-  cat /dev/klg
+    cat /dev/klg
